@@ -1,5 +1,5 @@
 # Sen Grup
- HTML CSS Bootstrap kullanılarak geliştirilmiş Front End projesi.
+ HTML CSS Bootstrap kullanılarak geliştirilmiş front-end projesi.
 <hr>
 Bazı ekran görüntüleri:
 
