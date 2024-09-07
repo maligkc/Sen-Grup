@@ -1,0 +1,664 @@
+*,
+*::before,
+*::after {
+    box-sizing:border-box;
+}
+a,p{
+    font-family: 'Campton', sans-serif;
+    letter-spacing: 0.1px;
+    font-weight: 350;
+}
+
+
+body{
+    
+    font-weight: 400;
+    font-size: 1rem;
+}
+.nav-size{
+    padding: 15px 25px;
+
+}
+.logo img{
+    /* padding: 5px 0px; */
+    max-width: 300px;
+    height: auto;
+}
+
+.head-nav{
+    margin-left: auto;
+}
+.nav-item a{
+    text-decoration: dashed;
+    padding: 5px 5px;
+}
+.nav-item a{
+    
+    font-family: 'Campton', sans-serif;
+    color: #000000 !important;
+    line-height: 1.5;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 550;
+}
+
+
+.nav-item a:hover{
+    
+    font-family: 'Campton', sans-serif;
+    color: rgba(0, 0, 0, .55) !important;
+}
+
+#navigasyon-bar{
+    flex-grow: 1;
+    align-items: center;
+    
+}
+
+
+.slider{
+    padding-bottom: 50px;
+}
+.carousel-control-bg {
+    background: #4971bb;
+
+    padding: 5px 5px 0px;
+
+}
+.carousel-item-center-bg-size{
+    padding: 20px;
+    position: relative;
+    float: right;
+}
+.carousel-item-center-bg-brown{
+    background-color:  rgba(134, 111, 106, 0.7);
+}
+.carousel-item-center-bg-light-blue{
+    background-color:  rgb(129, 156, 205, 0.7);
+}
+.carousel-item-center-bg-green{
+    background-color:  rgba(114, 167, 135, 0.7);
+}
+
+
+.carousel-text-center{
+    
+    width: 100%;
+    display: flex;
+    text-align: start;
+    justify-content: end;
+}
+
+.section-first{
+    height: 600px;
+    margin-bottom: 50px;
+}
+.title{
+    text-align: center;
+}
+.number-you{
+    height: 480px;
+}
+.person-item{
+    color: #FFFF;
+    display: inline-block;
+    position: relative;
+}
+.person-item-flex{
+    display: inline-flex;
+    position: relative;
+}
+.person-item-center-grid{
+    /* margin-top: inherit;
+    margin-bottom: inherit; */
+    padding: 0px;
+}
+.person-item-blue{
+    background-color: #1A428A;
+    height: 100%;
+    padding: 25px;
+}
+.person-item-dark-blue{
+    padding: 25px;
+    height: 50%;
+    width: 100%;
+    background-color: #305595;
+}
+.person-item-light-blue{
+    background-color: #bac6dc;
+    height: 50%;
+    width: 100%;
+    padding: 25px;
+}
+.person-item-gray-blue{
+    background-color: #8ca0c4;
+    height: 100%;
+    width: 50%;
+    padding: 25px;
+}
+.person-item-ocean-blue{
+    background-color: #5e7aad;
+    height: 240px;
+    padding: 25px;
+}
+.mx-w-50{
+    max-width: 50%;
+}
+a, p {
+    font-family: 'Campton', sans-serif;;
+}
+
+
+
+.person-item p, h6{
+    color: #FFFF;
+    font-size: 24px;
+    margin: 0px;
+}
+.person-item h6{
+    font-size: 42px;
+}
+
+.section-second-video{
+    width: 100%;
+    height: 730px;
+    
+}
+.section-second{
+    width: 100%;
+    
+    
+}
+.section-second-bg-dark{
+    background-color: #000000;
+}
+.video{
+    height:100%;
+    width:100%;
+}
+.bg-light-gray{
+    background-color: #f1f3f8;
+}
+.card-green{
+    background-color: #609675;
+}
+.card-light-blue{
+    background-color: #82A2B1;
+}
+.card-orange{
+    background-color: #EEAC65;
+}
+.card-yellow{
+    background-color: #C0B25D;
+}
+.card-body{
+    border-radius: 5px;
+    max-height: 340px;
+    min-height: 340px;
+}
+.card-title{
+    color: #f1f3f8;
+    text-align: center;
+    font-size: 25px;
+}
+.card-text{
+    color: #f1f3f8;
+    text-align: center;
+    font-size: 13px;
+}
+.card-body img{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.benefit-content{
+    background-color: #609675;
+    padding: 10px;
+    height: 100%;
+    
+}
+.benefit-content h3{
+    color: #FFF;
+    width: 70%;
+    font-size: 50px;
+}
+.benefit-content p{
+    color: #FFF;
+    margin: 0px;
+}
+.p-none{
+    padding: 0px !important; 
+}
+.sengrup-news-img{
+    object-fit: cover;
+    height: 450px;
+}
+.sengrup-news-box{
+    padding: 20px 0px;
+    content: "";
+    position: absolute;
+    filter: contrast(1.3);
+    bottom: 0;
+    z-index: 0;
+    height: fit-content;
+    background-color: rgb(26, 66, 138, 0.6);
+    width: 100%;
+}
+.sengrup-news-box::before{
+    content: "";
+    position: absolute;
+    top:0;
+    bottom: 0;
+    height: auto;
+    background-color: rgb(26, 66, 138, 0.6);
+    z-index: -1;
+}
+.w-sengrup-news{
+    width: 45%;
+}
+.form-pad{
+    padding: 60px 0px;
+}
+.form-center-group{
+    max-width: 600px;
+    margin: auto;
+}
+.bg-blue{
+    background-color: #1A428A;
+}
+.form-send-btn{
+    background-color: transparent;
+    width: 100%;
+    border: 1px solid #FFF;
+    border-radius: 0;
+}
+.form-send-btn:hover{
+    color: #1A428A;
+    background-color: #FFF;
+}
+.form-check-label{
+    font-size: 12px;
+    
+}
+.text-color-white{
+    color: #FFF;
+}
+.form-label span{
+    color:red;
+}
+footer .flex-column{
+    list-style: outside;
+}
+.nav-item .nav-link{
+    color: #6c757d !important;
+    font-weight: 300;
+}
+#footer{
+    background-color: #1A428A;;
+}
+.footer-logo img{
+    max-height: 60px;
+}
+.footer-copyright{
+    margin-left: 20px;
+}
+.social-media-list{
+    min-width: fit-content;
+}
+.social-media-list li a{
+    border: 1px solid #FFF;
+    border-radius: 60px;
+    padding: 10px;
+    
+}
+.social-media-list li{
+    color: #fff;
+}
+.social-media-svg{
+    vertical-align: middle;
+    fill: #fff;
+    width: 20px;
+}
+.more-info-btn a{
+    padding: 14px 24px;
+    transform: rotate(-90deg);
+    position: fixed;
+    right: -80px;
+    top:240px;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #1A428A;
+    color: #fff;
+    z-index: 9999999999 !important;
+    
+}
+
+.section{
+    margin-bottom: 50px;
+}
+.banner-img{
+    max-height: 320px;
+    width: 100%;
+    position: relative;
+    min-height: 200px;
+    object-fit: cover;
+}
+.row-pm-none{
+    margin: 0;
+    padding: 0;
+}
+.layout-bg{
+    background-color: #1A428A;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: -1;
+}
+.layout-bg h2{
+    font-family: 'Campton', sans-serif;
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-bottom: -3px;
+}
+.mobile-menu{
+    display: none;
+}
+/* 
+.corporate-dropdown {
+    border-radius: 0;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 23px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+    border-top: 1px solid #fff !important;
+}
+
+.corporate-dropdown-menu {
+    border-radius: 0;
+    width: 100%;
+    padding: 10px 0px 25px 0px;
+} */
+
+.section-corporate{
+    padding: 40px;
+}
+
+.desktop-mobile-none{
+    display: block;
+}
+.corporate-right-menu a{
+    text-align: start;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 20px;
+    letter-spacing: 0.1px;
+}
+.corporate-right-menu a:hover{
+    color: #1A428A;
+}
+.corporate-right-menu .active {
+    color: #1A428A !important;
+    font-family: 'Campton',sans-serif;
+    font-weight: 500;
+}
+.corporate-right-menu-img{
+    max-width: fit-content;
+    height: auto;
+}
+.corporate-right-menu-img-content{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.corporate-right-menu-img-content p{
+    margin-bottom: 0;
+    
+}
+.magament-img-w{
+    max-width: 230px;
+    width: 100% !important;
+    height: auto;
+}
+.mb-75{
+    margin-bottom: 75px;
+}
+.m-mauto{
+    margin: auto;
+}
+.corporate-right-menu-img img{
+    margin: auto;
+    display: flex;
+    height: 199px;
+}
+.layout-bg-green{
+    background-color: #609675;
+    
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: -1;
+}
+.layout-bg-green h2{
+    font-family: 'Campton', sans-serif;
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-bottom: -3px;
+}
+.layout-after-bg-content-yellow{
+    background-color: #C5B336;
+    
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: -1;
+}
+
+.layout-after-bg-content-yellow h2{
+    font-family: 'Campton', sans-serif;
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-bottom: -3px;
+}
+.layout-bg-light-blue{
+    background-color: #50A4D2;
+    
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: -1;
+}
+.layout-bg-light-blue h2{
+    font-family: 'Campton', sans-serif;
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-bottom: -3px;
+}
+.layout-bg-light-orange{
+    background-color: #EEAC65;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: -1;
+}
+.layout-bg-light-orange h2{
+    font-family: 'Campton', sans-serif;
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-bottom: -3px;
+}
+.contact{
+    padding: 0px 40px;
+}
+.contact-btn{
+    display: flex;
+    margin-top: 20px;
+}
+.contact-btn .submit-button{
+    background-color: #1A428A;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    font-family: 'Campton',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    width: 100%;
+    font-weight: 450;
+    border: 1px solid #fff;
+}
+.contact-btn .submit-button:hover{
+    background-color: #FFF;
+    color: #1A428A;
+    border: none;
+    padding: 20px;
+    font-family: 'Campton',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    width: 100%;
+    font-weight: 450;
+    border: 1px solid #1A428A;
+}
+.contact-send-btn{
+    background-color: #1A428A;
+    padding: 20px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-family: 'Campton', sans-serif;
+    color: #fff;
+    width: 100%;
+    border: 1px solid #FFF;
+    border-radius: 0;
+    margin-top: 30px;
+}
+.contact-send-btn:hover{
+    background-color: #fff;
+    color: #1A428A;
+    width: 100%;
+    border: 1px solid #1A428A;
+    border-radius: 0;
+}
+.borderline{
+    border: 1px solid black;
+    padding: 115px 90px;
+}
+.borderline h4{
+    margin-bottom: 20px;
+    font-weight: 430;
+    font-size: 30px;
+    font-family: 'Campton', sans-serif;
+}
+.contact-link-box{
+    display: flex;
+    margin-bottom: 20px;
+}
+.contact-link-box p{
+    display: flex;
+    margin: 0px;
+}
+.contact-link-box img{
+    margin-right: 15px;
+    width: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+}
+.contact-link-box a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Campton', sans-serif;
+    font-size: 25px;
+}
+.section-layout-second{
+    padding: 40px 0px;
+}
+.contact-form input , .contact-form textarea {
+    border-radius: 0px;
+    background-color: #f0f0f0;
+    
+    border: 0px;
+    font-size: 20px;
+}
+.contact-form input::placeholder, .contact-form textarea::placeholder{
+    color: #000000;
+    font-size: 18px;
+}
+.contact-form .form-check-input{
+    background-color: #fff;
+    border: 1px solid darkgray;
+}
+.form-check-list{
+    margin-top: 16px;
+}
+.form-check label{
+    font-size: 13px;
+}
+.offcanvas-header button{
+    color: #fff;
+    margin-bottom: 90px;
+}
+.b-none{
+    border: 0px;
+}
+.offcanvas{
+    min-width: 550px;
+    box-sizing: border-box;
+    
+
+}
+.form-baslik{
+    color: #fff;
+    font-family: 'Campton', sans-serif;
+    padding: 40px 20px 0px 20px;
+    
+}
+.form-baslik h5{
+    font-size: 30px;
+    font-weight: 300;
+}
+.offcanvas-header p{
+    font-family: 'Campton', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.info-form .form-control{
+    background-color: #607cae;
+    border-radius: 0px;
+    border: 0px;
+    padding: 10px;
+}
+.info-form .form-control::placeholder{
+    color: #fff;
+}
+.info-form-check label{
+    font-family: 'Campton', sans-serif;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+}
+.info-send-btn{
+    background-color: #607cae;
+    color: #fff;
+    border:0px;
+    width: 100%;
+    padding: 10px;
+}
